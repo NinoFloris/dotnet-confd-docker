@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:1.0.1-core-deps
+FROM microsoft/dotnet:1.1.0-runtime-deps
 
 # Install curl
 RUN apt-get update \
